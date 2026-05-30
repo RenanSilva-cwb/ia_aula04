@@ -68,7 +68,7 @@ jobs:
                 },
                 {
                   "role": "user",
-                  "content": "Analise estes logs e diga se existe erro crítico: '"$LOG_CONTENT"'"
+                  "content": "Analise estes logs e diga se existe erro crítico. Faça sugestões de plano de ação: '"$LOG_CONTENT"'"
                 }
               ]
             }')
