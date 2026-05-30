@@ -1,5 +1,4 @@
-INFO Aplicação iniciada
-INFO Usuário autenticado
-WARNING Tempo de resposta elevado
-ERROR Database connection timeout
-CRITICAL Falha ao salvar pagamento
+INFO Iniciando processamento da nota 123456
+INFO Validando estoque do produto 101010019
+ERROR Timeout ao consultar tabela TGFEST
+CRITICAL Estoque insuficiente para o produto 101010019
