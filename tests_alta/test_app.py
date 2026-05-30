@@ -1,5 +1,5 @@
 import pytest # type: ignore
-from src_alta.app import calcular_rentabilidade
+from src_alta.app import calcular_rentabilidade, calcular_preco_venda
 
 def test_rentabilidade_50_porcento():
     assert calcular_rentabilidade(100, 150) == 50
