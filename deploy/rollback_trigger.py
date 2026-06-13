@@ -188,7 +188,16 @@ def abrir_issue_github(
             )
  
         else:
- 
+            print("STDOUT:")
+            print(result.stdout)
+
+            print("STDERR:")
+            print(result.stderr)
+
+            print("RETURN CODE:")
+            print(result.returncode)
+
+
             print(
                 "\n✗ gh CLI não disponível "
                 "ou não autenticado."
