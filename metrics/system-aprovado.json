@@ -1,0 +1,10 @@
+{
+  "active_users": 185,
+  "cpu": 75,
+  "memory": 70,
+  "latency_ms": 52,
+  "db_connections": 198,
+  "db_connections_limit": 200,
+  "avg_response_ms": 4200,
+  "error_rate": 2
+}
