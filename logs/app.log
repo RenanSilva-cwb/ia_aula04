@@ -1,4 +1,2 @@
 INFO Iniciando processamento da nota 123456
 INFO Validando estoque do produto 101010019
-ERROR Timeout ao consultar tabela TGFEST
-CRITICAL Estoque insuficiente para o produto 10101001
