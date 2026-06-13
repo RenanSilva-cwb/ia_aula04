@@ -104,7 +104,7 @@ if __name__ == "__main__":
  
     raiz = Path(__file__).parent.parent
  
-    arquivo_metricas = raiz / "metrics" / "system-aprovado.json"
+    arquivo_metricas = raiz / "metrics" / "system-reprovado.json"
  
     if not arquivo_metricas.exists():
         print(
