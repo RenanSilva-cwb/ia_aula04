@@ -41,7 +41,7 @@ jobs:
  
       - name: Testes + Quality Gate
         run: |
-          pytest tests_alta/ \
+          python -m pytest tests_alta/ \
             --cov=src_alta \
             --cov-report=json:coverage.json \
             --cov-fail-under=80 \
